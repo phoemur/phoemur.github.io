@@ -50,7 +50,7 @@
     <script>
 
           (function() {
-            var memoryInitializer = 'flappy.wasm.pre';
+            var memoryInitializer = 'flappy.data';
             if (typeof Module['locateFile'] === 'function') {
               memoryInitializer = Module['locateFile'](memoryInitializer);
             } else if (Module['memoryInitializerPrefixURL']) {
